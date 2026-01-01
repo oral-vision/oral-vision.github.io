@@ -3,6 +3,8 @@ layout: post
 title: The Problem
 description: The challenge of oral health diagnostics in underserved communities
 image: assets/images/pic06.jpg
+show-tile: true
+tile_order: 2
 ---
 
 ## Customer Need

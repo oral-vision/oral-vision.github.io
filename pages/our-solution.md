@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: page
 title: Our Solution
 description: Utilizing deep learning to revolutionize oral diagnostics in underserved communities
 image: assets/images/pic05.jpg
+show-tile: true
+tile_order: 3
 ---
 
 ## Key Characteristics

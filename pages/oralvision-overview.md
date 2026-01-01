@@ -3,6 +3,8 @@ layout: landing
 title: Overview
 description: Revolutionizing oral diagnostics with deep learning technology
 image: assets/images/pic01.jpg
+show-tile: true
+tile_order: 1
 ---
 
 # Revolutionizing Oral Diagnostics

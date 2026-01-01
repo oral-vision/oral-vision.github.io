@@ -3,6 +3,8 @@ layout: landing
 title: "Impact"
 description: "Our mission, audience, and impact on the community"
 image: /assets/images/oralvision-clinical-use.jpg
+show-tile: true
+tile_order: 4
 ---
 
 <!-- Main -->

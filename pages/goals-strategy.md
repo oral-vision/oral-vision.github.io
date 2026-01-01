@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: page
 title: Goals & Strategy
 description: Channels, metrics, cost structure, and revenue streams for OralVision
 image: assets/images/pic03.jpg
+show-tile: true
+tile_order: 5
 ---
 
 ## Channels
