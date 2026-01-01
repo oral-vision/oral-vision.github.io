@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: post
 title: Overview
 description: Revolutionizing oral diagnostics with deep learning technology
 image: assets/images/pic01.jpg

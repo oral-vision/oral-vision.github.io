@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: post
 title: "Impact"
 description: "Our mission, audience, and impact on the community"
 image: /assets/images/oralvision-clinical-use.jpg

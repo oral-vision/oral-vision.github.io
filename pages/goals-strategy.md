@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Goals & Strategy
 description: Channels, metrics, cost structure, and revenue streams for OralVision
 image: assets/images/pic03.jpg

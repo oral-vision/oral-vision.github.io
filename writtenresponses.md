@@ -1,3 +1,8 @@
+---
+layout: post
+title: Written Responses
+show_tile: false
+---
 <!-- Lean Canvas Questions:
 # Lean Canvas Questions
 
