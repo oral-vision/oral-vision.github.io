@@ -4,7 +4,7 @@ subtitle:
 logo: /assets/favicons/favicon.svg
 email: alanchris.rajkumar@gmail.com
 description: Utilizing deep learning to revolutionize oral diagnostics<br />in underserved communities.
-baseurl: "/oral-vision" # the subpath of your site, e.g. /blog (set to "/oral-vision" for GitHub Pages)
+baseurl: "/oral-vision" # the subpath of your site (set to "/oral-vision" for GitHub Pages)
 url: "https://akhaled247.github.io" # the base hostname & protocol for your site
 author:
 street_address:

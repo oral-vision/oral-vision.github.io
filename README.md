@@ -134,6 +134,23 @@ baseurl: "/oral-vision"  # Your GitHub repository name
 bundle exec jekyll build
 ```
 
+### Baseurl Validation
+
+The repository includes an automatic check script that validates the baseurl configuration:
+
+- **Before deploying**: The script will automatically run in GitHub Actions and **stop deployment** if baseurl is incorrect
+- **Manually check**: You can run the check script locally:
+  ```bash
+  ruby scripts/check_baseurl.rb
+  ```
+
+The script will:
+- ✅ **Pass** if baseurl is correct for the environment (empty for local, `/oral-vision` for GitHub Pages)
+- ❌ **Fail** in CI/production if baseurl is not `/oral-vision`
+- ⚠️ **Warn** locally if baseurl is set incorrectly
+
+**Note**: The GitHub Actions workflow will automatically check baseurl before building and fail the deployment if it's incorrect, preventing broken deployments.
+
 ## Homepage Tiles
 
 The homepage displays tiles (image cards) for your main pages. These are controlled by:
@@ -211,19 +228,27 @@ The `_config.yml` file contains site-wide settings:
    url: "https://akhaled247.github.io"
    ```
 
-2. **Build the site:**
+2. **Optional: Verify baseurl is correct:**
+   ```bash
+   ruby scripts/check_baseurl.rb
+   ```
+   This will check that baseurl is set correctly before you commit.
+
+3. **Build the site:**
    ```bash
    bundle exec jekyll build
    ```
 
-3. **Commit and push your changes:**
+4. **Commit and push your changes:**
    ```bash
    git add .
    git commit -m "Update content"
    git push
    ```
 
-4. GitHub Pages will automatically rebuild and deploy your site
+5. **Automatic validation**: GitHub Actions will automatically check the baseurl configuration before building. If it's incorrect, the deployment will fail with an error message.
+
+6. GitHub Pages will automatically rebuild and deploy your site (if baseurl check passes)
 
 ### After Deployment
 
