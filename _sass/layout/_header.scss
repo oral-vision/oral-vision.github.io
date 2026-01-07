@@ -52,23 +52,24 @@
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));
-				background-color: _palette(highlight);
-				color: #FFFFFF !important;
+				background-color: #FFFFFF;
+				color: _palette(highlight) !important;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.225em;
+				border-radius: 0.1em;
 			}
 
 			&:hover {
 				strong {
-					background-color: darken(_palette(highlight), 8%);
+					background-color: darken(#FFFFFF, 8%);
 				}
 			}
 
 			&:active {
 				strong {
-					background-color: darken(_palette(highlight), 12%);
+					background-color: darken(#FFFFFF, 12%);
 				}
 			}
 		}
