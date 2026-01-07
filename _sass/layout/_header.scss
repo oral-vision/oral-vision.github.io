@@ -4,6 +4,8 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+@use 'sass:color';
+
 /* Header */
 
 	@include keyframes('reveal-header') {
@@ -63,13 +65,13 @@
 
 			&:hover {
 				strong {
-					background-color: darken(#FFFFFF, 8%);
+					background-color: color.adjust(#FFFFFF, $lightness: -8%);
 				}
 			}
 
 			&:active {
 				strong {
-					background-color: darken(#FFFFFF, 12%);
+					background-color: color.adjust(#FFFFFF, $lightness: -12%);
 				}
 			}
 		}
