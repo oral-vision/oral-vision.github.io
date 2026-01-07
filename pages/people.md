@@ -2,7 +2,7 @@
 layout: post
 title: People
 description: The engineers and researchers behind OralVision
-image: assets/images/pic02.jpg
+image: assets/images/headshots/zayan.jpg
 show-tile: true
 tile_order: 6
 ---
