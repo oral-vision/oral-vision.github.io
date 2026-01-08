@@ -2,12 +2,16 @@
 layout: post
 title: People
 description: The engineers and researchers behind OralVision
-image: assets/images/headshots/zayan.jpg
+image: assets/images/people.jpeg
 show-tile: true
 tile_order: 6
 ---
 
+## Our Story
+
 OralVision was formed in response to rising rates of oral cavity and pharyngeal cancers in North Texas, which have disproportionately affected members of our community living underprivileged medical deserts like South Dallas with limited access to proper diagnostic technologies. We saw the hardships that these people had to go through firsthand from volunteer experiences, motivating us to pursue an engineering-based solution that could make a meaningful impact on public health systems in these areas.
+
+## Meet the Team
 
 <table>
     <tr style="text-align:center">

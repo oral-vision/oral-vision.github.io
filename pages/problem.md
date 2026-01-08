@@ -8,5 +8,26 @@ hide_image: true
 tile_order: 1
 ---
 
-Over the past decade, oral cavity cancer rates have skyrocketed across the United States as a result of increased human papillomavirus (HPV) exposure and a lack of accessible diagnostic technologies. While oral cancer is largely treatable when caught early, nearly 70% of all cases are diagnosed in the later stages. The majority of these new oral cancer cases are clustered in low-income communities with heavily underfunded public health systems [Q3 INCOMPLETE]. 
-Yet the existing solutions are prohibitively expensive for these individuals. OralVision's most significant competitors in the oral diagnostics market are the VELScope Vx and the ViziLite PRO Oral Lesion Screening System. These devices utilize blue light to excite fluorophore molecules in the mucous membrane, resulting in abnormal oral tissue emitting a distinct fluorescence. While these existing solutions have been successful in improving lesion visibility, they cannot accurately differentiate between benign and malignant growths and ultimately rely on the physician's naked eye to provide a specific diagnosis. Moreover, both the VELScope Vx and the ViziLite PRO can cost over $2,000 upfront, with necessary accessories bringing that price even higher. This exorbitant pricing alienates many clinics in underprivileged areas from accessing essential intraoral diagnostic technology, contributing to disproportionately high oral cavity cancer rates.
+## The Rising Crisis
+
+Over the past decade, oral cavity cancer rates have skyrocketed across the United States as a result of increased human papillomavirus (HPV) exposure. While oral cancer is quite treatable when caught early, nearly **70%** of cases are diagnosed in the later stages, largely because malignant oral mucosa lesions are often misdiagnosed as visually similar benign conditions like canker sores and fibromas.
+
+## The Diagnostic Gap
+
+In fact, a recent study published in MDPI's Healthcare journal showed that **54%** of oral cancer cases were misdiagnosed by dental practitioners and senior students, exemplifying the scale of diagnostic errors in the field of oral oncology.
+
+## Healthcare Disparities
+
+This diagnostic gap is only exacerbated by inequitable access to advanced healthcare technologies in underprivileged communities, with over **30%** of people living in these areas reported to have limited access to proper dental care. Even in Federally Qualified Health Centers (FQHCs), which are dedicated to serving the healthcare needs of low-income populations, cancer screening rates are substantially lower than the national average.
+
+Unfortunately, this combination of diagnostic uncertainty and healthcare disparities leads to over **170,000 deaths annually** across the world, raising debates over whether existing diagnostic solutions are adequate to address the silent threat that oral cavity cancers pose.
+
+## Inadequate Existing Solutions
+
+Most oral cancer imaging devices utilize fluorescence spectroscopy to illuminate abnormal tissue, but these methods cannot differentiate between benign and malignant lesions. Therefore, final diagnoses ultimately depend on unreliable visual examinations or expensive biopsy procedures that are often not feasibly accessible for people living in impoverished areas.
+
+Moreover, these fluorescence-based devices can cost over **$2,000** per unit, further alienating clinics that serve low-income communities from utilizing affordable diagnostic tools.
+
+## Our Response
+
+OralVision aims to ameliorate these issues by offering a highly accurate, deep-learning-based imaging tool that is over 3 times cheaper than alternatives, ultimately contributing to decreased oral cavity cancer rates.
