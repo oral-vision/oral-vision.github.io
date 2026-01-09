@@ -28,7 +28,7 @@ Thus, in order to encourage clinical administration to purchase OralVision for t
 
 ## Market Opportunity
 
-The opportunity size for an oral cancer screening device is significant, as the global market for intraoral imaging is valued at approximately **$1.27 billion USD**.
+The opportunity size for an oral cancer screening device is significant, as the global market for intraoral imaging is valued at approximately **$535 million USD**.
 
 Currently, the oral cancer diagnostics industry is built around large dental imaging hardware manufacturers, with dentists and oncologists acting as the main channels for diffusion. Despite the rise of digital dentistry in the past decade, most competitors haven't incorporated new AI technologies in their devices yet. With OralVision's use of novel deep learning methods for diagnostics, our company has the potential to completely revolutionize the intraoral diagnostics market.
 
