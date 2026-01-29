@@ -10,7 +10,7 @@ nav-menu: true
 ---
 
 ## Our Story
-
+ 
 OralVision was formed in response to rising rates of oral cavity and pharyngeal cancers in North Texas, which have disproportionately affected members of our community living underprivileged medical deserts like South Dallas with limited access to proper diagnostic technologies. We saw the hardships that these people had to go through firsthand from volunteer experiences, motivating us to pursue an engineering-based solution that could make a meaningful impact on public health systems in these areas.
 
 ## Meet the Team
