@@ -6,6 +6,8 @@ image: assets/images/problem.jpg
 show-tile: true
 hide_image: true
 tile_order: 1
+menu_order: 1
+nav-menu: true
 ---
 
 ## The Rising Crisis

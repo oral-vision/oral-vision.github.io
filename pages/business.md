@@ -6,6 +6,8 @@ image: assets/images/business.jpg
 show-tile: true
 hide_image: true
 tile_order: 5
+menu_order: 5
+nav-menu: true
 ---
 
 ## Go-to-Market Strategy

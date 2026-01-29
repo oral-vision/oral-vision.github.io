@@ -5,6 +5,8 @@ description: Hardware design, system architecture, and AI pipeline
 image: assets/images/technical.png
 show-tile: true
 tile_order: 3
+menu_order: 3
+nav-menu: true
 hide_image: false
 ---
 

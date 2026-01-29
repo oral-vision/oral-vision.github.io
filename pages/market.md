@@ -6,6 +6,8 @@ image: assets/images/market.jpg
 show-tile: true
 hide_image: true
 tile_order: 4
+menu_order: 4
+nav-menu: true
 ---
 
 ## Target Customers

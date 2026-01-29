@@ -8,9 +8,9 @@
 		<img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="logo-image" />
 		{% endif %}
 		<strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<!-- <nav>
+	<nav>
 		<a href="#menu">Menu</a>
-	</nav> -->
+	</nav>
 </header>
 
 <!-- Menu -->
@@ -21,14 +21,9 @@
 		        <li><a href="{{ "/" | relative_url }}">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
+		{% assign menu_pages = site.html_pages | where: "nav-menu", true | where_exp: "page", "page.layout != 'home'" | sort: "menu_order" %}
+		{% for page in menu_pages %}
+		    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
 </nav>

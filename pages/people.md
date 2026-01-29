@@ -5,6 +5,8 @@ description: The engineers and researchers behind OralVision
 image: assets/images/people.jpeg
 show-tile: true
 tile_order: 6
+menu_order: 6
+nav-menu: true
 ---
 
 ## Our Story

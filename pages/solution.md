@@ -6,6 +6,8 @@ image: assets/images/solution.jpg
 show-tile: true
 hide_image: true
 tile_order: 2
+menu_order: 2
+nav-menu: true
 ---
 
 ## Overview
