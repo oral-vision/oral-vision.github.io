@@ -183,12 +183,6 @@
 		}
 	}
 
-	input[type="checkbox"] {
-		& + label {
-			&:before {
-			}
-		}
-	}
 
 	input[type="radio"] {
 		& + label {
@@ -198,24 +192,12 @@
 		}
 	}
 
-	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	textarea {
+		@include placeholder(_palette(fg-light));
 	}
 
 	.formerize-placeholder {

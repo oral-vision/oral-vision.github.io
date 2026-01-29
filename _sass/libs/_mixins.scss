@@ -37,6 +37,31 @@
 
 }
 
+/// Applies placeholder styles consistently across all browser prefixes.
+/// @param {string} $color Color for placeholder text.
+/// @param {number} $opacity Opacity for placeholder (default 1.0).
+@mixin placeholder($color, $opacity: 1.0) {
+	&::-webkit-input-placeholder {
+		color: $color !important;
+		opacity: $opacity;
+	}
+
+	&:-moz-placeholder {
+		color: $color !important;
+		opacity: $opacity;
+	}
+
+	&::-moz-placeholder {
+		color: $color !important;
+		opacity: $opacity;
+	}
+
+	&:-ms-input-placeholder {
+		color: $color !important;
+		opacity: $opacity;
+	}
+}
+
 /// Encodes a SVG data URL so IE doesn't choke (via codepen.io/jakob-e/pen/YXXBrp).
 /// @param {string} $svg SVG data URL.
 /// @return {string} Encoded SVG data URL.

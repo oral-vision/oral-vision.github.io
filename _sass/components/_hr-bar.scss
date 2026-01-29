@@ -15,12 +15,9 @@
 		}
 
 		// Style variants
-		&.accent1 .hr-bar-line { background-color: _palette(accent1); }
-		&.accent2 .hr-bar-line { background-color: _palette(accent2); }
-		&.accent3 .hr-bar-line { background-color: _palette(accent3); }
-		&.accent4 .hr-bar-line { background-color: _palette(accent4); }
-		&.accent5 .hr-bar-line { background-color: _palette(accent5); }
-		&.accent6 .hr-bar-line { background-color: _palette(accent6); }
+		@each $i in (1, 2, 3, 4, 5, 6) {
+			&.accent#{$i} .hr-bar-line { background-color: _palette(accent#{$i}); }
+		}
 		&.highlight .hr-bar-line { background-color: _palette(highlight); }
 		&.light .hr-bar-line { background-color: _palette(fg-light); }
 
