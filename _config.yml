@@ -5,8 +5,8 @@ logo: /assets/favicons/favicon.svg
 email: oralvision25@gmail.com
 formspree: mvzgjzab
 description: Utilizing deep learning to revolutionize oral diagnostics<br />in underserved communities.
-baseurl: "/oral-vision" # the subpath of your site (set to "/oral-vision" for GitHub Pages)
-url: "https://akhaled247.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site (set to "/oral-vision" for GitHub Pages)
+url: "https://oral-vision.github.io" # the base hostname & protocol for your site
 author:
 street_address:
 city: Frisco
