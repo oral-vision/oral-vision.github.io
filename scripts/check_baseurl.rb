@@ -5,7 +5,7 @@
 require 'yaml'
 
 # Expected baseurl for GitHub Pages
-EXPECTED_BASEURL = '/oral-vision'
+EXPECTED_BASEURL = ''
 CONFIG_FILE = '_config.yml'
 
 def check_baseurl
